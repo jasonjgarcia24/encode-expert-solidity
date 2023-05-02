@@ -17,6 +17,8 @@ error IndexOutOfRange();
  */
 contract Homework02 {
     uint256[] private __myArray;
+    uint8 public testVar8 = 15;
+    uint256[3] public testArray = [1, 2, 111];
 
     constructor() {}
 

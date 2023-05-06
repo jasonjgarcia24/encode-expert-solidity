@@ -2,9 +2,9 @@
 pragma solidity 0.8.17;
 
 import "forge-std/Test.sol";
-import "../src/Level_0_00.sol";
-import "../src/Level_0_01.sol";
-import "../src/Level_0_02.sol";
+import "../src/01_week/Level_0_00.sol";
+import "../src/01_week/Level_0_01.sol";
+import "../src/01_week/Level_0_02.sol";
 
 contract CTF00Test is Test {
     Level_0_Solution_00 public ctf00;

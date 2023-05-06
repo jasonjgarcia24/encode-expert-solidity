@@ -2,7 +2,7 @@
 pragma solidity ^0.8.13;
 
 import "forge-std/Test.sol";
-import "../src/Homework02.sol";
+import "../src/01_week/Homework02.sol";
 
 contract CounterTest is Test {
     Homework02 public hw02;

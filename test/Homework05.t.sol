@@ -2,8 +2,8 @@
 pragma solidity ^0.8.17;
 
 import "forge-std/Test.sol";
-import "../src/Homework05_01.sol";
-import "../src/Homework05_04.sol";
+import "../src/02_week/Homework05_01.sol";
+import "../src/02_week/Homework05_04.sol";
 
 contract testHomework05 is Test {
     Homework05_04 hw05_04;

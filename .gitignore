@@ -1,6 +1,7 @@
 lib/
 out/
 cache/
+*-week/
 
 # Environments
 .env

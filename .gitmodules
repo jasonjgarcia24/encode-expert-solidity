@@ -7,3 +7,9 @@
 [submodule "lib/openzeppelin-contracts"]
 	path = lib/openzeppelin-contracts
 	url = https://github.com/openzeppelin/openzeppelin-contracts
+[submodule "src/02_week/gas/gas-optimization-foundry"]
+	path = src/02_week/gas/gas-optimization-foundry
+	url = https://github.com/jasonjgarcia24/gas-optimization-foundry.git
+[submodule "src/02_week/gas-optimization-foundry"]
+	path = src/02_week/gas-optimization-foundry
+	url = https://github.com/jasonjgarcia24/gas-optimization-foundry.git

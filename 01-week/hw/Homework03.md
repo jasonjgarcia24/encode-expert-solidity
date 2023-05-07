@@ -5,7 +5,7 @@
 The Ethereum Virtual Machine (EVM) uses a 256-bit word size for its registers, memory, and stack.<br>
 
 <b>Advantages</b>:<br>
-1. <b>High precision</b>: The 256-bit word lenght allows for high precision arithmetic, which is useful for applications that require accurate calculations, such as financial contracts. Since there are no decimals in Ethereum, this is especially useful to help represent <i>n</i>.<i>m</i>-bit fixed point numbers to high precision.<br>
+1. <b>High precision</b>: The 256-bit word length allows for high precision arithmetic, which is useful for applications that require accurate calculations, such as financial contracts. Since there are no decimals in Ethereum, this is especially useful to help represent <i>n</i>.<i>m</i>-bit fixed point numbers to high precision.<br>
 
 2. <b>Large address space</b>: The 256-bit word size allows for a large address space, which means there can be more addresses in the system. This is important for scalability and future expansion of the Ethereum network.<br>
 

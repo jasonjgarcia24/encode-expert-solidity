@@ -9,6 +9,19 @@ out = 'out'
 libs = ['lib']
 test = 'test/01-week'
 
+[profile.hw01_foundry_template]
+src = '01-week/hw/Homework04/foundry-template-demo/src'
+out = 'out'
+libs = ['01-week/hw/Homework04/foundry-template-demo/lib']
+test = '01-week/hw/Homework04/foundry-template-demo/test'
+
+[profile.hw01_ctf]
+src = '01-week/hw/Homework04/ctf'
+out = 'out'
+libs = ['lib']
+test = 'test/01-week'
+gas_reports = ["CTF_4_00", "CTF_4_01"]
+
 [profile.hw02]
 src = '02-week/hw'
 out = 'out'

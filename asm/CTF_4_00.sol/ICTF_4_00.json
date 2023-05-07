@@ -1,0 +1,356 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "solution",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "pure",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "solution()": "4fb60251"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"solution\",\"outputs\":[{\"internalType\":\"uint8\",\"name\":\"\",\"type\":\"uint8\"}],\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"01-week/hw/Homework04/ctf/CTF_4_00.sol\":\"ICTF_4_00\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":@openzeppelin/=lib/openzeppelin-contracts/\",\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\",\":openzeppelin-contracts/=lib/openzeppelin-contracts/\",\":solmate/=lib/solmate/src/\",\":weird-erc20/=lib/weird-erc20/src/\"]},\"sources\":{\"01-week/hw/Homework04/ctf/CTF_4_00.sol\":{\"keccak256\":\"0xfd8e942145b312269a786ef3891c947e958e0bd8f3b05bff32df0c99efb98d49\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://37528f425b16f853d143189347d01975ddd8edba94e3510039a2b78df73005b9\",\"dweb:/ipfs/Qmeex7x4K6Mt2pjmdVVTuZZd4ttedLAnihPNocNE9zV7Et\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.19+commit.7dd6d404"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "pure",
+          "type": "function",
+          "name": "solution",
+          "outputs": [
+            {
+              "internalType": "uint8",
+              "name": "",
+              "type": "uint8"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":@openzeppelin/=lib/openzeppelin-contracts/",
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/",
+        ":openzeppelin-contracts/=lib/openzeppelin-contracts/",
+        ":solmate/=lib/solmate/src/",
+        ":weird-erc20/=lib/weird-erc20/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "01-week/hw/Homework04/ctf/CTF_4_00.sol": "ICTF_4_00"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "01-week/hw/Homework04/ctf/CTF_4_00.sol": {
+        "keccak256": "0xfd8e942145b312269a786ef3891c947e958e0bd8f3b05bff32df0c99efb98d49",
+        "urls": [
+          "bzz-raw://37528f425b16f853d143189347d01975ddd8edba94e3510039a2b78df73005b9",
+          "dweb:/ipfs/Qmeex7x4K6Mt2pjmdVVTuZZd4ttedLAnihPNocNE9zV7Et"
+        ],
+        "license": "UNLICENSED"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "01-week/hw/Homework04/ctf/CTF_4_00.sol",
+    "id": 16,
+    "exportedSymbols": {
+      "CTF_4_00": [
+        15
+      ],
+      "ICTF_4_00": [
+        7
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "39:293:0",
+    "nodes": [
+      {
+        "id": 1,
+        "nodeType": "PragmaDirective",
+        "src": "39:23:0",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "0.8",
+          ".19"
+        ]
+      },
+      {
+        "id": 7,
+        "nodeType": "ContractDefinition",
+        "src": "64:78:0",
+        "nodes": [
+          {
+            "id": 6,
+            "nodeType": "FunctionDefinition",
+            "src": "90:50:0",
+            "nodes": [],
+            "functionSelector": "4fb60251",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "solution",
+            "nameLocation": "99:8:0",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "107:2:0"
+            },
+            "returnParameters": {
+              "id": 5,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6,
+                  "src": "133:5:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 3,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "133:5:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "132:7:0"
+            },
+            "scope": 7,
+            "stateMutability": "pure",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ICTF_4_00",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          7
+        ],
+        "name": "ICTF_4_00",
+        "nameLocation": "74:9:0",
+        "scope": 16,
+        "usedErrors": []
+      },
+      {
+        "id": 15,
+        "nodeType": "ContractDefinition",
+        "src": "144:187:0",
+        "nodes": [
+          {
+            "id": 14,
+            "nodeType": "FunctionDefinition",
+            "src": "168:161:0",
+            "nodes": [],
+            "body": {
+              "id": 13,
+              "nodeType": "Block",
+              "src": "231:98:0",
+              "nodes": [],
+              "statements": [
+                {
+                  "AST": {
+                    "nodeType": "YulBlock",
+                    "src": "250:73:0",
+                    "statements": [
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "kind": "number",
+                              "nodeType": "YulLiteral",
+                              "src": "271:4:0",
+                              "type": "",
+                              "value": "0x40"
+                            },
+                            {
+                              "kind": "number",
+                              "nodeType": "YulLiteral",
+                              "src": "277:4:0",
+                              "type": "",
+                              "value": "0x2a"
+                            }
+                          ],
+                          "functionName": {
+                            "name": "mstore",
+                            "nodeType": "YulIdentifier",
+                            "src": "264:6:0"
+                          },
+                          "nodeType": "YulFunctionCall",
+                          "src": "264:18:0"
+                        },
+                        "nodeType": "YulExpressionStatement",
+                        "src": "264:18:0"
+                      },
+                      {
+                        "expression": {
+                          "arguments": [
+                            {
+                              "kind": "number",
+                              "nodeType": "YulLiteral",
+                              "src": "302:4:0",
+                              "type": "",
+                              "value": "0x40"
+                            },
+                            {
+                              "kind": "number",
+                              "nodeType": "YulLiteral",
+                              "src": "308:4:0",
+                              "type": "",
+                              "value": "0x20"
+                            }
+                          ],
+                          "functionName": {
+                            "name": "return",
+                            "nodeType": "YulIdentifier",
+                            "src": "295:6:0"
+                          },
+                          "nodeType": "YulFunctionCall",
+                          "src": "295:18:0"
+                        },
+                        "nodeType": "YulExpressionStatement",
+                        "src": "295:18:0"
+                      }
+                    ]
+                  },
+                  "evmVersion": "paris",
+                  "externalReferences": [],
+                  "id": 12,
+                  "nodeType": "InlineAssembly",
+                  "src": "241:82:0"
+                }
+              ]
+            },
+            "functionSelector": "4fb60251",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "solution",
+            "nameLocation": "177:8:0",
+            "parameters": {
+              "id": 8,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "185:2:0"
+            },
+            "returnParameters": {
+              "id": 11,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 10,
+                  "mutability": "mutable",
+                  "name": "_solution",
+                  "nameLocation": "220:9:0",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 14,
+                  "src": "214:15:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint8",
+                    "typeString": "uint8"
+                  },
+                  "typeName": {
+                    "id": 9,
+                    "name": "uint8",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "214:5:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint8",
+                      "typeString": "uint8"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "213:17:0"
+            },
+            "scope": 15,
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "CTF_4_00",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          15
+        ],
+        "name": "CTF_4_00",
+        "nameLocation": "153:8:0",
+        "scope": 16,
+        "usedErrors": []
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 0
+}

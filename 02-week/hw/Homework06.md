@@ -55,7 +55,7 @@ selfdestruct
 |`push9 0x601e8060093d393df3`|Place 9 byte item on stack    |
 |msize                       |Get the size of active memory in bytes|
 |mstore                      |Save word to memory           |
-|**copy the runtime bytecode after the contructor code in memory**||
+|copy the runtime bytecode after the contructor code in memory||
 |codesize                    |Get the size of code running in current environment|
 |returndatasize              |Get the size of output data from the previous call from the current environment|
 |msize                       |Get the size of active memory in bytes|

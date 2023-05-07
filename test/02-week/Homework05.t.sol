@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.17;
+pragma solidity 0.8.17;
 
 import "forge-std/Test.sol";
-import "../../src/02_week/hw/Homework05_01.sol";
-import {Homework05_04_01, Homework05_04_02} from "../../src/02_week/hw/Homework05_04.sol";
+import "../../02-week/hw/Homework05_01.sol";
+import {Homework05_04_01, Homework05_04_02} from "../../02-week/hw/Homework05_04.sol";
 
 contract testHomework05 is Test {
     Homework05_04_01 hw05_04_01;

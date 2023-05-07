@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.13;
+pragma solidity 0.8.17;
 
 import "forge-std/Test.sol";
 import "../../01-week/hw/Homework02.sol";
 
-contract CounterTest is Test {
+contract TestHomework02_01 is Test {
     Homework02_01 public hw02_01;
 
     uint256 public arrayLength = 12;

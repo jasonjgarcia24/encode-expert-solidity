@@ -13,3 +13,6 @@
 [submodule "src/02_week/gas-optimization-foundry"]
 	path = src/02_week/gas-optimization-foundry
 	url = https://github.com/jasonjgarcia24/gas-optimization-foundry.git
+[submodule "02-week/project/gas-optimization-foundry"]
+	path = 02-week/project/gas-optimization-foundry
+	url = https://github.com/jasonjgarcia24/gas-optimization-foundry.git

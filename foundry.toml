@@ -3,11 +3,16 @@ src = 'src'
 out = 'out'
 libs = ['lib']
 
+[profile.hw02]
+src = '02-week/hw'
+out = 'out'
+libs = ['lib']
+test = 'test/02-week'
+
 [profile.hw02_project]
 src = 'src'
 out = 'out'
 libs = ['lib']
-gas_reports = ['Intro', 'Level_0_Solution_01','Level_0_Solution_02', 'Homework02', 'Level_0_Solution', 'Level_0_Solution1']
 
 [fuzz]
 runs = 300

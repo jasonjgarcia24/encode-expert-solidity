@@ -3,7 +3,7 @@ src = 'src'
 out = 'out'
 libs = ['lib']
 
-[profile.hw04]
+[profile.hw02_project]
 src = 'src'
 out = 'out'
 libs = ['lib']

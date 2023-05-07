@@ -1,8 +1,6 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity 0.8.19;
 
-import "forge-std/console.sol";
-
 interface ICTF_4_01 {
     function solution(
         uint256[2] calldata x,

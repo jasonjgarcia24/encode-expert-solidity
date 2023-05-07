@@ -5,7 +5,7 @@ import "forge-std/Test.sol";
 import "../../02-week/hw/Homework05_01.sol";
 import {Homework05_04_01, Homework05_04_02} from "../../02-week/hw/Homework05_04.sol";
 
-contract testHomework05 is Test {
+contract TestHomework05 is Test {
     Homework05_04_01 hw05_04_01;
     Homework05_04_02 hw05_04_02;
 

@@ -28,6 +28,12 @@ out = 'out'
 libs = ['lib']
 test = 'test/02-week'
 
+[profile.hw02_assembly]
+src = '02-week/hw/assembly'
+out = 'out'
+libs = ['lib']
+test = 'test/02-week'
+
 [profile.hw02_notes]
 src = '02-week/notes'
 out = 'out'

@@ -1,4 +1,4 @@
-pragma solidity ^0.8.4;
+pragma solidity 0.8.19;
 
 contract Add {
     function addAssembly(uint256 x, uint256 y) public pure returns (uint256) {

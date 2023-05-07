@@ -1,4 +1,4 @@
-pragma solidity ^0.8.4;
+pragma solidity 0.8.19;
 
 contract Intro {
     function intro() public pure returns (uint16) {

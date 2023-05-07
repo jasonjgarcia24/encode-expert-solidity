@@ -1,4 +1,4 @@
-pragma solidity ^0.8.4;
+pragma solidity 0.8.19;
 
 contract SubOverflow {
     // Modify this function so that on overflow it returns the value 0

@@ -105,4 +105,37 @@ Yes, by sending the contract ETH during contract creation, the initial non-payab
 |JUMP         |56       |
 |JUMPDEST     |5b       |
 |STOP         |00       |
--- fin
+-- fin<br>
+
+***
+## 5. Can you think of a situation where the opcode `EXTCODECOPY` is used?
+The `extcodecopy` opcode copies code from an external account's address to the contract's own memory. This operation can be useful in a few practical cases, including:<br>
+
+1. <b>Contract Upgrades</b>: When a smart contract needs to be upgraded with new functionality, it can use the `extcodecopy` opcode to retrieve the new contract code from an external address and replace its current code with the updated version.<br>
+
+2. <b>Interacting with External Contracts</b>: Smart contracts often need to interact with other smart contracts on the Ethereum network. The `extcodecopy` opcode can be used to retrieve the bytecode of another contract and analyze it or interact with it in various ways.<br>
+
+3. <b>Debugging</b>: Sometimes, developers may want to inspect the bytecode of another contract for debugging purposes. The `extcodecopy` opcode can be used to read the bytecode at a given address and help identify potential issues or vulnerabilities.<br>
+
+***
+## Assembly Exercises:
+`FOUNDRY_PROFILE=hw02_assembly forge test --match-path test/02-week/Homework05.t.sol -vv`<br>
+
+```
+[⠢] Compiling...
+[⠘] Compiling 4 files with 0.8.19
+[⠆] Solc 0.8.19 finished in 1.52s
+Compiler run successful!
+
+Running 8 tests for test/02-week/Homework05.t.sol:TestHomework05
+[PASS] test__Assembly_1() (gas: 5468)
+[PASS] test__Assembly_2(uint128,uint128) (runs: 300, μ: 5906, ~: 5906)
+[PASS] test__Assembly_3() (gas: 6320)
+[PASS] test__Assembly_4() (gas: 11197)
+[PASS] test__add__HW05_04_01() (gas: 5431)
+[PASS] test__add__HW05_04_02() (gas: 5456)
+[PASS] test__fuzz__Assembly_3(uint256,uint256) (runs: 300, μ: 8755, ~: 8622)
+[PASS] test__fuzz__Assembly_4(uint128) (runs: 300, μ: 11359, ~: 11453)
+Test result: ok. 8 passed; 0 failed; finished in 15.17ms
+```
+

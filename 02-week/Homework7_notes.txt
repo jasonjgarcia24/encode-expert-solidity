@@ -1,0 +1,9 @@
+Q1:
+i want you to get practice passing functions as parameters. I've started a normal function and as one parameter X, i want you to replace that function. the function that you put there should be similar to the erc20 transfer function. instead of X, put in a function as a parameter.
+
+Within the function body, you need to call that function and revert if the return value is false.
+
+Q2:
+Assume we've passed some details about a function in an array of bytes (data), and that data holds the function selector, target address, amount. We need to take those details to call an erc20 transfer function. And emit an event to call that.
+
+You do need to check that the function you're checking is a valid erc20 transfer function.

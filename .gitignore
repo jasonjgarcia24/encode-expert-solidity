@@ -1,9 +1,9 @@
 lib/
 out/
 cache/
-*-week/
 lib/
 node_modules/
+*.pdf
 
 # Environments
 .env

@@ -20,28 +20,21 @@ contract CTF_4_01 {
         assembly {
             // x @ 0x04
             // y @ 0x84
-            // _result @ 0x80
 
-            // mstore(0xc0, add(calldataload(x), calldataload(y)))
-            // mstore(0xc0, add(calldataload(0x04), calldataload(0x84)))
-            // mstore(0xe0, add(calldataload(0x24), calldataload(0xa4)))
-            // mstore(0x0100, add(calldataload(0x44), calldataload(0xc4)))
-            // mstore(0x0120, add(calldataload(0x64), calldataload(0xe4)))
-
-            mstore(0x04, add(calldataload(x), calldataload(y)))
+            mstore(0x40, add(calldataload(x), calldataload(y)))
 
             mstore(
-                0x24,
+                0x60,
                 add(calldataload(0x24), calldataload(0xa4))
             )
 
             mstore(
-                0x44,
+                0x80,
                 add(calldataload(0x44), calldataload(0xc4))
             )
 
             mstore(
-                0x64,
+                0xa0,
                 add(calldataload(0x64), calldataload(0xe4))
             )
 

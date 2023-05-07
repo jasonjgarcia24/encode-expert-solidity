@@ -3,16 +3,30 @@ src = 'src'
 out = 'out'
 libs = ['lib']
 
+[profile.hw01]
+src = '01-week/hw'
+out = 'out'
+libs = ['lib']
+test = 'test/01-week'
+
 [profile.hw02]
 src = '02-week/hw'
 out = 'out'
 libs = ['lib']
 test = 'test/02-week'
 
-[profile.hw02_project]
-src = 'src'
+[profile.hw02_notes]
+src = '02-week/notes'
 out = 'out'
 libs = ['lib']
+test = 'test/02-week'
+
+[profile.hw02_gas_project]
+src = '02-week/project/gas-optimization-foundry/src'
+out = 'out'
+libs = ['lib']
+test = '02-week/project/gas-optimization-foundry/test'
+gas_reports = ["GasContract", "original__GasContract"]
 
 [fuzz]
 runs = 300

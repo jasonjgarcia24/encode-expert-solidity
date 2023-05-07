@@ -1,31 +1,33 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
-contract Store {
+contract original__Store {
 
     struct payments {
         bool valid;
-        bool checked;
-        uint8 paymentType;
-        address sender;
-        address receiver;
         uint256 amount;
+        address sender;
+        uint8 paymentType;
         uint256 finalAmount;
+        address receiver;
         uint256 initialAmount;
+        bool checked;
     }
-
-    bool flag2;
-    bool flag1;
-    bool flag3;
     uint8 index;
-    address admin2;
-
-    address admin;
     uint256 public number;
+    bool flag1;
+    address admin;
     mapping (address=>uint256) balances;
+    bool flag2;
+    address admin2;
+    bool flag3;
     payments[8] topPayments;
 
-    constructor(){}
+
+    constructor(){
+
+    }
+
 
     function setNumber(uint256 newNumber) public {
         number = newNumber;

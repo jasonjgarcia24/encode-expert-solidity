@@ -16,3 +16,6 @@
 [submodule "02-week/project/gas-optimization-foundry"]
 	path = 02-week/project/gas-optimization-foundry
 	url = https://github.com/jasonjgarcia24/gas-optimization-foundry.git
+[submodule "01-week/hw/Homework04/foundry-template-demo"]
+	path = 01-week/hw/Homework04/foundry-template-demo
+	url = git@github.com:jasonjgarcia24/foundry-template-demo.git

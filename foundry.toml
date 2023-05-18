@@ -47,6 +47,22 @@ libs = ['lib']
 test = '02-week/project/gas-optimization-foundry/test'
 gas_reports = ["GasContract", "original__GasContract"]
 
+[profile.hw10]
+src = '10-week/hw'
+out = 'out'
+libs = ['lib']
+test = 'test/03-week'
+gas_reports = ["Homework10_02a", "Homework10_02b"]
+
+[profile.notes04]
+src = '04-week/notes'
+out = 'out'
+libs = ['lib']
+test = 'test/04-week'
+gas_reports = ["SignatureNotes"]
+
+
+
 [fuzz]
 runs = 300
 solc = "0.8.17"

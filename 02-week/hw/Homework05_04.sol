@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity 0.8.19;
 
-import "forge-std/console.sol";
+import "forge-std/Test.sol";
 
 contract Homework05_04_01 {
     function add() external pure returns (uint256 _sum) {

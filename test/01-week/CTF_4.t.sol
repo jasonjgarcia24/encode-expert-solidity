@@ -42,16 +42,16 @@ contract CTF00Test is Test {
 
     function test__CTF02() public {
         uint256[10] memory x = [
-            uint256(block.timestamp),
-            uint256(block.number),
-            uint256(type(uint256).max/2),
-            uint256(4),
-            uint256(50),
-            uint256(5),
-            uint256(6),
-            uint256(256),
-            uint256(type(uint256).max),
-            uint256(12)
+            uint256(0x63),
+            uint256(0x04),
+            uint256(0x07),
+            uint256(0x01),
+            uint256(0x08),
+            uint256(0x0e),
+            uint256(0x01),
+            uint256(0x5a),
+            uint256(0x03),
+            uint256(0x37)
         ];
 
         uint256[10] memory _solution = ctf02.solution(x);

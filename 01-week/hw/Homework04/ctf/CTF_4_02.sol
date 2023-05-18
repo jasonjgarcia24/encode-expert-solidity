@@ -12,9 +12,13 @@ interface ICTF_4_02 {
 }
 
 contract CTF_4_02 {
+    event LogArray(uint256[10] array);
+
     function solution(
         uint256[10] calldata unsortedArray
     ) external payable returns (uint256[10] memory sortedArray) {
+        emit LogArray(unsortedArray);
+
         assembly {
             // unsortedArray @ 0x0004 - 0x0124
             // sortedArray   @ 0x0080 - 0x01a0
